@@ -1,0 +1,24 @@
+
+
+section{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin:auto;
+    animation: normal 2s;
+}
+
+section:hover{
+    animation: section 5s;
+}
+
+
+@keyframes section{
+
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
